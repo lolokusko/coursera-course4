@@ -1,0 +1,82 @@
+body {
+  font-size: 16px;
+  color: black;
+  background-color: #fff;
+  font-family: 'Fugaz One', cursive;
+}
+.container{width:100%;}
+
+/** HEADER **/
+#header-nav {
+  background-color: #69F0AE;
+  border:2px solid #311B92;
+  border-radius: 0;
+
+}
+
+.navbar-brand { 
+vertical-align: middle;
+}
+.navbar-brand h1 { 
+  color: #4A148C;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+#nav-list {
+  margin-top: -10px;
+}
+#nav-list a {
+  color: #4A148C;
+  text-align: center;
+  background-color: yellow;
+  font-size: 1.8em; 
+}
+#nav-list .visible-xs:first-child{padding-top: 20px;}
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+#collapsable-nav{
+	margin-bottom: -10px;
+}
+#collapsable-nav a { 
+    font-size: 1.2em;  
+  }
+  #collapsable-nav a { 
+    font-size: 1em;
+    border-bottom: 2px solid #311B92;
+ 	
+  }
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #311B92;
+  background-color: #D1C4E9;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  
+}
+ul.nav{margin-top: 0px;}
+.jumbotron{
+	background-color: #fff;
+	padding:0;
+margin: 0;}
+.jumbotron h1{
+	text-align: center;
+}
+#menu-content{
+	background-color: #FFFF8D;
+	height: 1000px;
+	width:100%;
+	margin-right: auto;
+	margin-left: auto;
+	}
+#menu-content h2{text-align: center;}
